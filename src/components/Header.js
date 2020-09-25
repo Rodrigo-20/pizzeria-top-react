@@ -38,10 +38,10 @@ const Header = () => {
             <Title> Pizzeria TOP
                 <FontAwesomeIcon icon={faPizzaSlice} />
             </Title>
-            <Link to='restaurant-page-react/Inicio'>Inicio</Link>
-            <Link to='restaurant-page-react/Menu'>Menu</Link>
-            <Link to='restaurant-page-react/Contacto'>Contacto</Link>
-            <Link to='restaurant-page-react/Acerca'>Acerca</Link>
+            <Link to='/restaurant-page-react/Inicio'>Inicio</Link>
+            <Link to='/restaurant-page-react/Menu'>Menu</Link>
+            <Link to='/restaurant-page-react/Contacto'>Contacto</Link>
+            <Link to='/restaurant-page-react/Acerca'>Acerca</Link>
         </Wrapper>
     )
 }
