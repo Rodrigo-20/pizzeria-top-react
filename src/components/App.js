@@ -35,16 +35,16 @@ function App() {
         <Router>
           <Header></Header>
             <Switch>
-              <Route path='/Inicio' exact>
+              <Route path='restaurant-page-react/Inicio/Inicio' exact>
                 <Inicio></Inicio>
               </Route>
-              <Route path='/Menu'>
+              <Route path='restaurant-page-react/Menu'>
                 <Menu></Menu>
               </Route>
-              <Route path='/Contacto'>
+              <Route path='restaurant-page-react/Contacto'>
                 <Contacto></Contacto>
               </Route>
-              <Route path='/Acerca'>
+              <Route path='restaurant-page-react/Acerca'>
                 <Acerca></Acerca>
               </Route>
             </Switch>
