@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
 import styled from '@emotion/styled'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPizzaSlice } from '@fortawesome/free-solid-svg-icons'
@@ -38,7 +38,7 @@ const Header = () => {
             <Title> Pizzeria TOP
                 <FontAwesomeIcon icon={faPizzaSlice} />
             </Title>
-            <Link to='/'>Inicio</Link>
+            <Link to='/Inicio'>Inicio</Link>
             <Link to='/Menu'>Menu</Link>
             <Link to='/Contacto'>Contacto</Link>
             <Link to='/Acerca'>Acerca</Link>

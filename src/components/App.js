@@ -1,6 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
-import {HashRouter} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
 import styled from '@emotion/styled'
 import Inicio from './pages/Inicio'
 import Menu from './pages/Menu'
@@ -33,10 +32,10 @@ function App() {
   return (
     <Container>
       <Wrapper>
-          <HashRouter basename='/'>
+          <Router>
             <Header></Header>
              <Switch>
-                <Route path='/' exact>
+                <Route path='/Inicio' exact>
                   <Inicio></Inicio>
                 </Route>
                 <Route path='/Menu'>
@@ -50,7 +49,7 @@ function App() {
                 </Route>
               </Switch>
             <Footer></Footer>
-          </HashRouter>
+          </Router>
       </Wrapper>
     </Container>
   );
