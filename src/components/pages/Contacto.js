@@ -7,6 +7,7 @@ const Container = styled.div `
     grid-template-rows: 1fr;
     height: 750px;
     margin: 0 auto;
+    
 `
 
 const FormContainer = styled.div `
@@ -17,6 +18,9 @@ const FormContainer = styled.div `
     grid-column: 2/3;
     background: rgba(0,0,0,0.7);
     border-radius: 5px;
+    @media screen and (max-width:768px){
+        height:60%
+    }
 `
 
 const Form = styled.form `
