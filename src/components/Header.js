@@ -30,7 +30,6 @@ const Link = styled(NavLink)`
         lor: #45fdeed5 !important;
         text-shadow: 1px 1px 8px rgb(179, 165, 139);
         cursor: pointer;
-        border: 1px solid rgba(0, 0, 0, 0.219);
         background-color: rgba(117, 101, 101, 0.445);
     }
 `
@@ -62,7 +61,7 @@ const Header = () => {
                 </Title>
             </LogoContainer>
             <Nav>
-                <Link exact={true} to='/'>Inicio</Link>
+                <Link exact to='/'>Inicio</Link>
                 <Link to='/Menu'>Menu</Link>
                 <Link to='/Contacto'>Contacto</Link>
                 <Link to='/Acerca'>Acerca</Link>
