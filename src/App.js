@@ -42,13 +42,13 @@ function App() {
                 <Route path='/' exact={true}>
                   <Inicio></Inicio>
                 </Route>
-                <Route path='/Menu'>
+                <Route path='/menu'>
                   <Menu></Menu>
                 </Route>
-                <Route path='/Contacto' >
+                <Route path='/contacto' >
                   <Contacto></Contacto>
                 </Route>
-                <Route path='/Acerca'>
+                <Route path='/acerca'>
                  <Acerca></Acerca>
                 </Route>
               </Switch>

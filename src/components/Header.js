@@ -67,9 +67,9 @@ const Header = () => {
             </LogoContainer>
             <Nav>
                 <Link exact to='/'>Inicio</Link>
-                <Link to='/Menu'>Menu</Link>
-                <Link to='/Contacto'>Contacto</Link>
-                <Link to='/Acerca'>Acerca</Link>
+                <Link to='/menu'>Menu</Link>
+                <Link to='/contacto'>Contacto</Link>
+                <Link to='/acerca'>Acerca</Link>
             </Nav>
         </HeaderContainer>
     )
