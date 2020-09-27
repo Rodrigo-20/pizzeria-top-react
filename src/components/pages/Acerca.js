@@ -33,6 +33,7 @@ const Image = styled.img `
 `
 
 const TextContainer = styled.div `
+    text-align:center;
     height: 90%;
     width: 80%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -42,6 +43,10 @@ const TextContainer = styled.div `
     align-items: center;
     padding: 0 20px;
     grid-row:2/3;
+    line-height: 250%;
+    @media screen and (max-width:768px){
+        line-height: 110%;
+    }
 `
 
 const Text = styled.p `
@@ -56,7 +61,7 @@ const Acerca = () => {
                 <Image src={About} alt='horno pizza'/>
             </ImageContainer>
             <TextContainer>
-                <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a quas aliquid pariatur consequatur veritatis libero ut! Illo, harum explicabo iste at culpa fugit numquam perferendis deleniti, ad doloribus delectus.</Text>
+                <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a quas aliquid pariatur consequatur veritatis libero ut! Illo, harum explicabo iste at culpa fugit numquam perferendis deleniti, ad doloribus delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a quas aliquid pariatur consequatur veritatis libero ut! Illo, harum explicabo iste at culpa fugit numquam perferendis deleniti, ad doloribus delectus.</Text>
             </TextContainer>
         </Container>
     )
