@@ -1,36 +1,42 @@
 /** @jsx jsx */
 import styled from '@emotion/styled'
 import { jsx } from '@emotion/core'
+import pizzaMuzzarella from './images/pizza-mozzarella.png'
+import empanadasDeCarne from './images/empanadas-carne.png'
+import pizzaLonga from './images/pizza-longaniza.png'
+import pizzaProvenzal from './images/pizza-provenzal.png'
+import pizzaBroccoli from './images/pizza-brocoli.png'
+import pizzaAnchoas from './images/pizza-anchoas.png'
 
 const menuItems = [
     {
       id: "pizza-mozza",
-      imgSrc: require("./images/pizza-mozzarella.png"),
+      imgSrc: pizzaMuzzarella,
       description: "Pizza de mozzarella y albaca",
     },
     {
       id: "emp-carne",
-      imgSrc: require("./images/empanadas-carne.png"),
+      imgSrc: empanadasDeCarne,
       description: "Empanadas de carne",
     },
     {
       id: "pizza-longa",
-      imgSrc: require("./images/pizza-longaniza.png"),
+      imgSrc: pizzaLonga,
       description: "Pizza de mozzarella y longaniza",
     },
     {
       id: "pizza-provenzal",
-      imgSrc: require("./images/pizza-provenzal.png"),
+      imgSrc: pizzaProvenzal,
       description: "Pizza de provenzal",
     },
     {
       id: "pizza-brocoli",
-      imgSrc: require("./images/pizza-brocoli.png"),
+      imgSrc: pizzaBroccoli,
       description: "Pizza de brocoli",
     },
     {
       id: "pizza-anchoas",
-      imgSrc: require("./images/pizza-anchoas.png"),
+      imgSrc: pizzaAnchoas,
       description: "Pizza de anchoas",
     },
 ];
