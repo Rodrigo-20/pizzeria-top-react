@@ -26,11 +26,15 @@ const Link = styled(NavLink)`
     color: rgba(0, 0, 0, 0.700);
     color: whitesmoke;
     padding: 15px 8px;
+    text-decoration: none;
+    border-radius:5px;
     &.active, &:hover{
-        lor: #45fdeed5 !important;
+        text-decoration-line:underline;
+        color: #45fdeed5 !important;
         text-shadow: 1px 1px 8px rgb(179, 165, 139);
         cursor: pointer;
-        background-color: rgba(117, 101, 101, 0.445);
+        background-color: rgba(117, 101, 101, 0.4);
+        box-sizing: border-box;
     }
 `
 

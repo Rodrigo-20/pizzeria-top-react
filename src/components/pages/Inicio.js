@@ -37,7 +37,7 @@ const Welcome = styled.div `
     align-items: center;
     padding: 0 20px;
     @media screen and (max-width:768px){
-        width:300px
+        width:300px;
     }
 `
 
@@ -47,6 +47,9 @@ const TitleWelcome = styled.h1`
     color:whitesmoke;
     font-size:50px;
     text-shadow: 0 0 8px rgb(197, 160, 91);
+    @media screen and (max-width:768px){
+        font-size:40px
+    }
 `
 
 const Delivery = styled.div `
@@ -86,22 +89,20 @@ const Image = styled.img `
 `
 
 const SocialContainer = styled.div `
-    align-self: stretch;
-    justify-self: flex-start;
+    font-size: 20px;
     display:flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
+    @media screen and (max-width:768px){
+        font-size:15px
+    }
 `
 
 const PhoneInfo = styled.div `
-    grid-column: 2/3; 
     display:flex;
     align-items:center;
 `
 
 const DirectionInfo = styled.div `
-    grid-column: 2/3;
     display:flex;
     align-items:center;
 `

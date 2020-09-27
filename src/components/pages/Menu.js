@@ -65,7 +65,7 @@ const Container = styled.div `
     color: whitesmoke;
     justify-items: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 20px;
     box-sizing: border-box;
 `
 
