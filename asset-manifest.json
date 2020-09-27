@@ -1,23 +1,31 @@
 {
   "files": {
     "main.css": "/restaurant-page-react/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/restaurant-page-react/static/js/main.ad1d0cdf.chunk.js",
-    "main.js.map": "/restaurant-page-react/static/js/main.ad1d0cdf.chunk.js.map",
+    "main.js": "/restaurant-page-react/static/js/main.dc963526.chunk.js",
+    "main.js.map": "/restaurant-page-react/static/js/main.dc963526.chunk.js.map",
     "runtime-main.js": "/restaurant-page-react/static/js/runtime-main.ec1bc154.js",
     "runtime-main.js.map": "/restaurant-page-react/static/js/runtime-main.ec1bc154.js.map",
-    "static/js/2.591f99d2.chunk.js": "/restaurant-page-react/static/js/2.591f99d2.chunk.js",
-    "static/js/2.591f99d2.chunk.js.map": "/restaurant-page-react/static/js/2.591f99d2.chunk.js.map",
+    "static/js/2.5924a8a1.chunk.js": "/restaurant-page-react/static/js/2.5924a8a1.chunk.js",
+    "static/js/2.5924a8a1.chunk.js.map": "/restaurant-page-react/static/js/2.5924a8a1.chunk.js.map",
     "index.html": "/restaurant-page-react/index.html",
-    "precache-manifest.95fb6c65e01c41166d350c5db0dac135.js": "/restaurant-page-react/precache-manifest.95fb6c65e01c41166d350c5db0dac135.js",
+    "precache-manifest.e911c9711356a33e7f8aed9fcf280446.js": "/restaurant-page-react/precache-manifest.e911c9711356a33e7f8aed9fcf280446.js",
     "service-worker.js": "/restaurant-page-react/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/restaurant-page-react/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.591f99d2.chunk.js.LICENSE.txt": "/restaurant-page-react/static/js/2.591f99d2.chunk.js.LICENSE.txt",
-    "static/media/background.png": "/restaurant-page-react/static/media/background.e8466688.png"
+    "static/js/2.5924a8a1.chunk.js.LICENSE.txt": "/restaurant-page-react/static/js/2.5924a8a1.chunk.js.LICENSE.txt",
+    "static/media/About-us.png": "/restaurant-page-react/static/media/About-us.187264cf.png",
+    "static/media/background.png": "/restaurant-page-react/static/media/background.e8466688.png",
+    "static/media/delivery.png": "/restaurant-page-react/static/media/delivery.0588b573.png",
+    "static/media/empanadas-carne.png": "/restaurant-page-react/static/media/empanadas-carne.94206e39.png",
+    "static/media/pizza-anchoas.png": "/restaurant-page-react/static/media/pizza-anchoas.f28fee5b.png",
+    "static/media/pizza-brocoli.png": "/restaurant-page-react/static/media/pizza-brocoli.24e0fa8f.png",
+    "static/media/pizza-longaniza.png": "/restaurant-page-react/static/media/pizza-longaniza.d6db9b3e.png",
+    "static/media/pizza-mozzarella.png": "/restaurant-page-react/static/media/pizza-mozzarella.d8668dec.png",
+    "static/media/pizza-provenzal.png": "/restaurant-page-react/static/media/pizza-provenzal.68f88051.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ec1bc154.js",
-    "static/js/2.591f99d2.chunk.js",
+    "static/js/2.5924a8a1.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.ad1d0cdf.chunk.js"
+    "static/js/main.dc963526.chunk.js"
   ]
 }
