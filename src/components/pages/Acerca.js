@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import About from "./images/About-us.png"
 
 const Container = styled.div `
     display:grid;
@@ -52,7 +53,7 @@ const Acerca = () => {
     return (
         <Container>
             <ImageContainer>
-                <Image src={require("./images/About-us.png")} alt='horno pizza'/>
+                <Image src={About} alt='horno pizza'/>
             </ImageContainer>
             <TextContainer>
                 <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a quas aliquid pariatur consequatur veritatis libero ut! Illo, harum explicabo iste at culpa fugit numquam perferendis deleniti, ad doloribus delectus.</Text>

@@ -3,9 +3,7 @@ import styled from '@emotion/styled'
 import { jsx, css, keyframes } from '@emotion/core'
 import PizzaImage from './images/delivery.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClock } from '@fortawesome/free-solid-svg-icons'
-import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faMapMarkerAlt, faPhone, faClock } from '@fortawesome/free-solid-svg-icons'
 
 const BoxAnimation = keyframes`
     0% {
@@ -26,9 +24,6 @@ const Container = styled.div`
     justify-items: center;
     align-items: center;
     height: 800px;
-    @media screen and (max-width:768px){
-        width:360px;
-    }
 `
 
 const Welcome = styled.div `

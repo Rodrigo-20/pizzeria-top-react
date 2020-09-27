@@ -97,16 +97,16 @@ const Contacto = () => {
         <Container>
             <FormContainer>
                 <Form>
-                    <Label for="name">Nombre*
+                    <Label htmlFor="name">Nombre*
                         <Input name="name" type="text"/> 
                     </Label>
-                    <Label for="email">E-mail:
+                    <Label htmlFor="email">E-mail:
                         <Input name="email" type="text"/>
                     </Label>
-                    <Label for="phone">Telefono:
+                    <Label htmlFor="phone">Telefono:
                         <Input name="phone" type="text"/>
                     </Label>
-                    <Label for="comment">Su mensaje
+                    <Label htmlFor="comment">Su mensaje
                         <TextArea name="comment" type=""></TextArea>
                     </Label>
                     <Button type="reset">Enviar</Button>

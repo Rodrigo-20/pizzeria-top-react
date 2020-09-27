@@ -1,13 +1,13 @@
 import React from 'react';
 import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import styled from '@emotion/styled'
-import Inicio from './pages/Inicio'
-import Menu from './pages/Menu'
-import Contacto from './pages/Contacto'
-import Acerca from './pages/Acerca'
-import Header from './Header'
-import Footer from './Footer'
-import Background from '../images/background.png'
+import Inicio from './components/pages/Inicio'
+import Menu from './components/pages/Menu'
+import Contacto from './components/pages/Contacto'
+import Acerca from './components/pages/Acerca'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Background from './images/background.png'
 
 const Container = styled.div `
   background-color: #cccccc;
