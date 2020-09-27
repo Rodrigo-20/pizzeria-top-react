@@ -1,17 +1,24 @@
 import React from 'react'
-import {HashRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styled from '@emotion/styled'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPizzaSlice } from '@fortawesome/free-solid-svg-icons'
 
-const Wrapper = styled.header`
+const HeaderContainer = styled.header`
     color: whitesmoke;
-    width:100%;
+    position:relative;
     padding: 20px 10px;
     background-color: #160808c7;
-    display:flex;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1.2fr;
+    justify-items: center;
     border: 1px solid rgba(0, 0, 0, 0.63);
-    box-sizing: border-box;
+    box-sizing:border-box;
+    @media screen and (max-width:768px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+    }
 `
 
 const Link = styled(NavLink)`
@@ -27,22 +34,40 @@ const Link = styled(NavLink)`
         background-color: rgba(117, 101, 101, 0.445);
     }
 `
+
+const LogoContainer = styled.div `
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width:768px) {
+        grid-column:1/2;
+        margin-bottom: 7px;
+    }
+`
+
 const Title = styled.h1`
-    font-size: 20px;
-    margin: 0 5px;
+    font-size: 25px;
+`
+
+const Nav = styled.nav `
+    align-self: center;
 `
 
 const Header = () => {
     return (
-        <Wrapper>
-            <Title> Pizzeria TOP
-                <FontAwesomeIcon icon={faPizzaSlice} />
-            </Title>
-            <Link to='/Inicio'>Inicio</Link>
-            <Link to='/Menu'>Menu</Link>
-            <Link to='/Contacto'>Contacto</Link>
-            <Link to='/Acerca'>Acerca</Link>
-        </Wrapper>
+        <HeaderContainer>
+            <LogoContainer>
+                <Title> Pizzeria TOP
+                    <FontAwesomeIcon icon={faPizzaSlice} />
+                </Title>
+            </LogoContainer>
+            <Nav>
+                <Link exact={true} to='/'>Inicio</Link>
+                <Link to='/Menu'>Menu</Link>
+                <Link to='/Contacto'>Contacto</Link>
+                <Link to='/Acerca'>Acerca</Link>
+            </Nav>
+        </HeaderContainer>
     )
 }
 
