@@ -1,10 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
-import { faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
-import { faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
-import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookSquare, faGithubSquare, faInstagramSquare, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
 
 const Container = styled.footer`
   position: absolute;
