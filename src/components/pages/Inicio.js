@@ -23,7 +23,7 @@ const Container = styled.div`
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
-    height: 800px;
+    height: 750px;
 `
 
 const Welcome = styled.div `
