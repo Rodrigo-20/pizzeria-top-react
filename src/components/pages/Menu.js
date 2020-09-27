@@ -46,7 +46,7 @@ const MainContainer = styled.div `
   grid-auto-flow: row;
   grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
   gap: 15px;
-  height: 750px;
+  min-height: 750px;
   margin: 5px auto;
   align-items: center;
   justify-content: center;
