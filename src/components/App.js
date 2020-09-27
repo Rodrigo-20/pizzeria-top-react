@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import styled from '@emotion/styled'
 import Inicio from './pages/Inicio'
 import Menu from './pages/Menu'
@@ -19,13 +19,17 @@ const Container = styled.div `
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 `
+
 const Wrapper = styled.div`
-  padding-bottom: 45px;
   max-width: 1080px;
   margin: 0 auto;
   min-height: 100vh;
   position: relative;
+  padding-bottom:70px;
   box-sizing: border-box;
+  @media screen and (max-width:768px){
+    padding-bottom:130px;
+  }
 `
 
 function App() {
@@ -35,13 +39,13 @@ function App() {
           <Router>
             <Header></Header>
              <Switch>
-                <Route path='/Inicio' exact>
+                <Route path='/' exact={true}>
                   <Inicio></Inicio>
                 </Route>
                 <Route path='/Menu'>
                   <Menu></Menu>
                 </Route>
-                <Route path='/Contacto'>
+                <Route path='/Contacto' >
                   <Contacto></Contacto>
                 </Route>
                 <Route path='/Acerca'>
