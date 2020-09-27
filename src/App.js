@@ -14,10 +14,11 @@ const Container = styled.div `
   background-image: url(${Background});
   background-repeat: repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
-  background-position: center;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  background-size: cover;
+  background-position: center left;
+  
 `
 
 const Wrapper = styled.div`
