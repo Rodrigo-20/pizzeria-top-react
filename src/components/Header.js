@@ -28,6 +28,7 @@ const Link = styled(NavLink)`
     padding: 15px 8px;
     text-decoration: none;
     border-radius:5px;
+    margin:2.5px;
     &.active, &:hover{
         text-decoration-line:underline;
         color: #45fdeed5 !important;
