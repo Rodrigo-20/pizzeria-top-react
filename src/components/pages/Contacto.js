@@ -5,7 +5,7 @@ const Container = styled.div `
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    height: 800px;
+    height: 750px;
     margin: 0 auto;
 `
 
@@ -15,6 +15,8 @@ const FormContainer = styled.div `
     width: 90%;
     height: 70%;
     grid-column: 2/3;
+    background: rgba(0,0,0,0.7);
+    border-radius: 5px;
 `
 
 const Form = styled.form `
@@ -25,6 +27,7 @@ const Form = styled.form `
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color:white;
 `
 
 const Button = styled.button `
@@ -32,7 +35,7 @@ const Button = styled.button `
     align-self: center;
     padding: 20px 20px;
     color: whitesmoke;
-    background-color: #160808c7;
+    background-color: rgba(0,0,0,1);
     border: 1px solid rgba(41, 40, 40, 0.418);
     font-weight: bold;
     border-radius: 5px;
@@ -85,11 +88,11 @@ const Label = styled.label `
 const Input = styled.input `
     display: block;
     border-radius: 5px;
-    margin: 0 auto;
+    margin: 5px auto;
     width:80%;
     border: 1px solid rgb(118, 118, 118);
     width: 100%;
-    padding:3px;
+    padding:5px 0;
 `
 
 const Contacto = () => {
