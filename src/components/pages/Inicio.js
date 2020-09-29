@@ -39,6 +39,7 @@ const Welcome = styled.div `
     padding: 0 20px;
     @media screen and (max-width:768px){
         width:300px;
+        padding: 0 9px;
     }
 `
 

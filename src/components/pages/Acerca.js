@@ -19,7 +19,8 @@ const ImageContainer = styled.div `
     align-items: center;
     align-self: flex-end;
     @media screen and (max-width:768px){
-        width:360px;
+        width:320px;
+        height: 80%;
     }
 `
 
@@ -28,7 +29,7 @@ const Image = styled.img `
     width: 600px;
     border-radius: 5px;
     @media screen and (max-width:768px){
-        width:360px;
+        width:320px;
     }
 `
 
