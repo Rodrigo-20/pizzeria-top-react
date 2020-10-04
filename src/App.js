@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import styled from '@emotion/styled'
 import Inicio from './components/pages/Inicio'
 import Menu from './components/pages/Menu'
