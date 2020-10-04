@@ -1,8 +1,7 @@
 {
-  "name": "restaurant-page-react",
+  "homepage": "https://daxas-boop.github.io/pizzeria-top-react/",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://daxas-boop.github.io/restaurant-page-react",
   "dependencies": {
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
@@ -16,7 +15,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",

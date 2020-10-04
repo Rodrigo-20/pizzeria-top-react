@@ -24,6 +24,7 @@ const Container = styled.div`
     justify-items: center;
     align-items: center;
     height: 750px;
+    
 `
 
 const Welcome = styled.div `
@@ -38,6 +39,7 @@ const Welcome = styled.div `
     padding: 0 20px;
     @media screen and (max-width:768px){
         width:300px;
+        padding: 0 9px;
     }
 `
 
@@ -67,6 +69,11 @@ const Delivery = styled.div `
     justify-items: center;
     grid-template-rows: .6fr 1fr;
     grid-template-columns: 1fr 1fr;
+    @media screen and (max-width:768px){
+        grid-template-rows: .6fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        height:90%;
+    }
 `
 
 const TitleDelivery = styled.h2 `
@@ -76,6 +83,9 @@ const TitleDelivery = styled.h2 `
     text-shadow: 0 0 8px rgb(197, 160, 91);
     grid-column: 1/3;
     text-align: center;
+    @media screen and (max-width:768px){
+        font-size:25px;
+    }
 `
 
 const Image = styled.img `
@@ -84,7 +94,9 @@ const Image = styled.img `
     border-radius: 5px;
     margin: 10px;
     @media screen and (max-width:768px){
-        width:100px
+        width:250px;
+        grid-row:2/3;
+        grid-column:1/3
     }
 `
 
